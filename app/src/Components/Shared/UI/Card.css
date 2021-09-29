@@ -1,0 +1,8 @@
+.Card {
+    background: #fff;
+    border-radius: 2vw;
+    padding: 2vw;
+    display: flex;
+    align-self:flex-start;
+    flex-direction: column;
+  }

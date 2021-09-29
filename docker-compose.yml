@@ -1,0 +1,44 @@
+version: "3"
+services:
+    database:
+        build: "./backend/db"
+        container_name: "banco-container"
+        restart: "always"
+        volumes:
+            - ./backend/db/data:/var/lib/mysql
+        ports:
+            - "3306:3306"
+        expose:
+            - "3306"
+        networks:
+            - backend
+    api:
+        build: "./backend/server"
+        container_name: "descomplica-back-container"
+        environment:
+            - DATABASE_HOST=database
+        ports:
+            - "4001:4000"
+        volumes:
+            - ./backend/server/:/server/
+        depends_on:
+            - database
+        networks:
+            - backend
+    app:
+        build:
+            context: ./app
+            dockerfile: Dockerfile
+        container_name: descomplica-front-container
+        volumes:
+            - "./app:/app"
+            - "./app/node_modules"
+        ports:
+            - "3001:3000"
+        command: " npm start"
+        depends_on:
+            - api
+networks:
+    backend:
+        name: custom_backend
+        driver: bridge

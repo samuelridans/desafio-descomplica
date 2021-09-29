@@ -1,0 +1,8 @@
+.Conteudo {
+	margin-top: 1vh;
+	width: 60vw;
+	min-height: 63vh;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}

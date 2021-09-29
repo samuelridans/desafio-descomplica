@@ -1,0 +1,13 @@
+.Search {
+    width:30vw;
+    align-self: center;
+  }
+
+input{
+   border-radius: 30px;
+   width: 25vw;
+   padding: 15px;
+   outline: none;
+}
+
+input:focus{ border: 2px solid #fed500;}

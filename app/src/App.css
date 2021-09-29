@@ -1,0 +1,87 @@
+.App {
+	text-align: center;
+	background: #eaeaea;
+	height: 100vh;
+	background-image: url(./Assets/alunos.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	font-size: 0.9em;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.Conteudos {
+	text-align: center;
+	align-items: center;
+	padding: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+}
+/* 
+.Conteudo > .Card {
+    margin-top: 5vh;
+    width: 60vw;
+    min-height: 65vh;
+    display: flex;
+    align-self:flex-start;
+    flex-direction: column;
+}
+.Card {
+  background: #fff;
+  border-radius: 2vw;
+  padding: 2vw;
+} */
+
+.Search {
+	width: 30vw;
+	align-self: center;
+}
+/* 
+table{
+  margin-top: 3vw;
+  width:50vw;
+  align-self: center;
+  border-radius: 10px;
+}
+th{ 
+   background-color: #000;
+   color:#fff;
+   border-radius:20px; 
+   border:  solid #fff; 
+  }
+tr:nth-child(odd) {background-color: #efefef;} */
+
+.App-link {
+	color: #61dafb;
+}
+
+.Alunos {
+	justify-content: flex-end;
+	align-self: center;
+}
+.Alunos > img {
+	width: 40vw;
+	align-self: flex-end;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

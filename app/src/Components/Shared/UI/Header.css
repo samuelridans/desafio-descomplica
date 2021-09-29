@@ -1,0 +1,22 @@
+.App-header {
+	background-color: #01e78d;
+	min-width: 100vh;
+	height: 4.2vw;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+.Side-left {
+	float: left;
+	width: 5vw;
+}
+.Side-left img {
+	width: 9vw;
+	padding-top: 0.5vw;
+}
+.Side-right {
+	float: right;
+	width: 20vw;
+}
+.Side-right img {
+	padding-top: 0.8vw;
+}

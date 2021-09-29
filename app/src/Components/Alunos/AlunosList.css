@@ -1,0 +1,13 @@
+
+table{
+    margin-top: 3vw;
+    width:50vw;
+    align-self: center;
+    border-radius: 10px;
+  }
+  th{ 
+     background-color: #000;
+     color:#fff;
+     border-radius:20px; 
+     border:  solid #fff; 
+    }
