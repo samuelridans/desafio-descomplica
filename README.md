@@ -20,7 +20,7 @@
 ### Extras
 
 -   Adicionar, editar ou excluir alunos via React app
--   Realizar commits específicos e detalhados ✅
+-   Realizar commits específicos e detalhados 
 -   Escrever testes automatizados ✅
 -   Acrescentar algum tipo de cache para a consulta dos dados (no frontend, no backend, ou nos dois :) ✅
 -   Acrescentar um proxy reverso redirecionando as requisições que chegam para o serviço
