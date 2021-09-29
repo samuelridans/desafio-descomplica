@@ -13,7 +13,7 @@
 ### Requisitos não funcionais
 
 -   Ser escrito em JavaScript ou TypeScript ✅
--   Tanto o serviço no backend quanto a UI serem servidos em containers Docker ✅/❎
+-   Tanto o serviço no backend quanto a UI serem servidos em containers Docker ✅
 -   O banco de dados deve ser implementado num SGBD, como MySQL, Postgres ou similares.✅ (MYSQL)
 -   Haver documentação (instruções sobre como devemos rodar seu projeto, por exemplo, são indispensáveis) ✅
 
